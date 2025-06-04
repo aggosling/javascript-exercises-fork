@@ -25,3 +25,9 @@ pinkDiv.appendChild(divHeader);
 const divText = document.createElement("p");
 divText.textContent = "ME TOO!";
 pinkDiv.appendChild(divText);
+
+const btn = document.createElement("button");
+btn.addEventListener("click", function(e) {
+    e.target.style.background = "blue";
+});
+pinkDiv.appendChild(btn);
